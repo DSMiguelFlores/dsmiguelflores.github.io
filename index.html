@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Miguel Flores DS</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet"
+      href="site_libs/highlight/default.css"
+      type="text/css" />
+<script src="site_libs/highlight/highlight.js"></script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> Miguel Flores Data Science</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Miguel Flores</a>
+</li>
+<li>
+  <a href="paqueteR.html">Paquete en R</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Miguel Flores DS</h1>
+
+</div>
+
+
+<p>INFORMACIÓN PERSONAL Apellidos y nombres: Flores Sánchez Miguel Alfonso Pasaporte: 091886321-8 NIE: Y2091675T Fecha de Nacimiento: 04-07-1979 Correo electrónico: <a href="mailto:mflores72000@gmail.com">mflores72000@gmail.com</a> FORMACIÓN ACADÉMICA • 2014-2017: Candidato al Doctorado Interuniversitario en Estadística e Investigación de Operaciones, Universidad de La Coruña, La Coruña-España. • 2013: Máster Interuniversitario en Técnicas Estadísticas, Universidad de La Coruña, La Coruña-España. • 2008: Diplomado en Minería de Datos y Gestión del conocimiento, Universidad Iberoaméricana ciudad de México, Quito-Ecuador. • 2006: Magister en Investigación de Operaciones con mención en modelos logísticos y de transporte, Escuela Politécnica Nacional, Quito-Ecuador. • 2003: Ingeniero Estadístico Informático Ecuador, Escuela Superior Politécnica del Litoral, Guayaquil-Ecuador. EXPERIENCIA ACADÉMICA E INVESTIGATIVA. • 2015–2016: Departamento de matemática, Director del proyecto interno Análisis de datos funcionales en el control estadístico, Escuela Politécnica Nacional, Quito – Ecuador. • 2013–2014: Investigador en el Centro de Modelización Matemática, Escuela Politécnica Nacional, Quito – Ecuador. • 2014-2014: Docente en el programa de Maestría, Escuela Politécnica Nacional del Chimborazo (ESPOCH), Riobamba – Ecuador. • 2004-2015: Docente en la Escuela de Ciencias Físicas y Matemáticas, Universidad de las Américas (UDLA), Quito – Ecuador. • 2014-2014: Docente en el programa de Maestría, Universidad de las Fuerzas Armadas (ESPE), Sangolqui – Ecuador. • 2004-2011: Docente contratado de la Facultad de Ciencias, Escuela Politécnica Nacional (EPN), Quito – Ecuador. • 2007-2008: Docente en el Departamento de Matemáticas, Universidad San Francisco de Quito (USFQ), Cumbaya – Ecuador. ARTÍCULOS INDEXADOS EN EL JCR DEL WOS Y EN SCOPUS: • Naya, S., Tarrío-Saavedra. J., López-Beceiro, J., Francisco Fernández, M., Flores, M., Artiaga, R. Statistical functional approach for interlaboratory studies with thermal data, Journal of Thermal Analysis and Calorimetry, 118 (2), 1229-1243. Noviembre 2014. • Salvador Naya, Andrés Devia-Rivera, Javier Tarrío-Saavedra, Miguel Flores. New approaches of robust capability ratios for quality control, Dyna Colombia, 83 (198), pp. 94-101, Septiembre, 2016. • Miguel Flores, Guido Saltos, Sergio Castillo-Páez, Setting a generalized functional linear model (GFLM) for the classification of different types of cancer, Latin American Journal of Computing Faculty, 3(2), pp. 41- 48, Noviembre 2016. PATENTES Y REGISTRO DE SOFTWARE: • Autores (p.o. de firma): Miguel Flores, Salvador Naya, Rubén Fernández-Casal, Javier Tarrio-Saavedra. Título: qcr: Quality control review. Versión: 0.1-18. Febrero 2015. Objeto de propiedad intelectual: Software Clase de obra: Paquete de software de R Licencia: GPL-2, GPL-3 Repositorio <a href="https://cran.r-project.org/web/packages/qcr/index.html" class="uri">https://cran.r-project.org/web/packages/qcr/index.html</a> • Autores (p.o. de firma): Miguel Flores, Salvador Naya, Javier Tarrío Saavedra, Rubén Casal, Rubi Arias. Título: ILS: Interlaboratory Study. Versión: 0.1.0 Mayo 2016. Objeto de propiedad intelectual: Software Clase de obra: Paquete de software de R Licencia: GPL-2, GPL-3 Repositorio <a href="https://cran.r-project.org/web/packages/ILS/index.html" class="uri">https://cran.r-project.org/web/packages/ILS/index.html</a> COMUNICACIONES EN CONGRESOS INTERNACIONALES Y NACIONALES: • 8th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2015). London, 12-14 Diciembre 2015 Autores: Salvador Naya, Javier Tarrío-Saavedra, Miguel Flores, Rubén Fernández-Casal. Título: Functional data analysis approach of Mandel h and k statistics in interlaboratory tests. • XIV Encuentro de Matemática y sus Aplicaciones. Quito, Ecuador, 1 - 5 Septiembre, 2014 Autores: Salvador Naya, Miguel Flores, Javier Tarrío Saavedra. Título: Statistical funcional approach for interlaboratory studies with termal data. • 60th ISI World Statistics Congress (ISI 2015). Río de Janeiro, Brasil, 26-31 de Julio de 2015 Autores: Salvador Naya, Javier Tarrío, Sonia Zaragoza, Manuel Oviedo, Miguel Flores. Título: Statistical Quality Control in Functional Data. An application to Energy Efficiency Data. • Autores: Miguel Flores, Salvador Naya, Javier Tarrío, Rubén Fernández. Título: R package for statistical process control when data are funcional: fda.qcr • ECMM Summer School (Elaboration and Characterization of Multistructured Materials). Paris, 27 de Junio al 1 de Julio, 2016. Autores: Salvador Naya, Antonio Meneses, Miguel Flores, Ignacio López de Ullibarri. Título: Statistical learning in engineering and materials science • II Encuentro Galaico-Portugués de Biometría (BIOAPP 2016). Santiago, 30 de junio al 2 de julio de 2016. Autores: Miguel Flores, Salvador Naya, Javier Tarrio-Saavedra, Luis Horna, Rolando Saez y Ana Escobar. Título: Estimación del nivel de riesgo contaminante de los residuos petrolíferos aplicando técnicas de clasificación FDA • XII Congreso Galego de Estatística e Investigación de Operacións . Lugo (España), 22-24 Octubre. Autores: Miguel Flores, Salvador Naya, Rubén Fernández, Javier Tarrio-Saavedra. Título: QCR: Propuesta de una nueva librería en R para el control de calidad. PROYECTOS DE INVESTIGACIÓN Y TRABAJO DE TITULACION (TITULO DEL PROYECTO Y CARGO). • Análisis de Datos Funcionales en el control de la calidad, Director. Escuela Politécnica Nacional, Ecuador, 2016. • Desarrollo e implementación de modelos matemáticos de optimización para el corredor central del Sistema Transporte Metrobús-Q, 2013. Investigador. Escuela Politécnica Nacional, Ecuador, 2014-2015. • Desarrollo de una aplicación para gráficos de control de procesos industriales utilizando el software R, Investigador, Master Técnicas Estadísticas, 2011. • Determinación de rutas más cortas al interior del Sistema de Transporte Urbano Masivo de pasajeros de la ciudad de Guayaquil (METROVIA), Investigador, Escuela Politécnica Nacional, 2006. • Diseño, construcción e implementación de modelos matemáticos para el control automatizado de inventarios, Investigador, Escuela Politécnica del Litoral, 2003. INFORMES TÉCNICOS. • Miguel A. Flores Sánchez, Investigación de Mercado sobre la penetración de TIC en medianas y pequeñas empresas clasificadas por tipo de establecimiento y productivos-actividad económicas, Informe de Consultoría para LOGIKA – Ministerio de Telecomunicaciones de Ecuador, 2012. • Miguel A. Flores Sánchez, Primer Censo de Deportistas, Entrenadores e Infraestructura del Ministerio de Deporte, Informe de Consultoría para Asociación Marketing Consulting – ICA, 2011. • Miguel A. Flores Sánchez, Implementación de modelos de distribución de recursos del Ministerio de Deporte en Base a Necesidades de Financiamiento en el marco de la nueva Ley del Deporte, Informe de Consultoría para MENTEFACTURA – ICA, 2011. • Miguel A. Flores Sánchez, Definición y evaluación de indicadores para la evaluación de impactos ambientales y sociales, Informe de Consultoría para Programa de Remediación Ambiental y Social (PRAS-MINISTERIO DEL AMBIENTE), 2009. • Miguel A. Flores Sánchez, Definición de indicadores sociales para evaluar la percepción de calidad de vida de los habitantes del DMQ, Informe de Consultoría para Corporación Instituto de la Ciudad, 2009. • Miguel A. Flores Sánchez, Definición y evaluación de indicadores para el sistema nacional de información de las Instituciones de Educación Superior, Informe de Consultoría para SENPLADES, 2009. • Miguel A. Flores Sánchez, Construcción de modelos matemáticos para la asignación de volumen de Gas Licuado de Petróleo (GLP) y sus derivados para las comercializadoras, Informe de Consultoría para EPN-Ministerio de Minas y Petróleos, 2008. OTRAS CAPACITACIONES • 2014 - Julio: Workshop Spatio-Temporal Statistics,Valencia - España • 2014 - Junio: International Society of NonParametric Statistics, Cadiz - España. • 2013 - Septiembre: European Courses in Advanced Statistics (ECAS2013) Functional and Complex Structure Data Analysis, Castro Urdiales - España. • 2012 - Junio: Curso De Modelos Mixtos Utilizando R, Santiago de Compostela-España.</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

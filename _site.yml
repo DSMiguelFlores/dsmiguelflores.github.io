@@ -1,0 +1,9 @@
+name: "dsmiguelflores"
+output_dir: "."
+navbar:
+  title: " Miguel Flores Data Science"
+  left:
+    - text: "Miguel Flores"
+      href: index.html
+    - text: "Paquete en R"
+      href: paqueteR.html
